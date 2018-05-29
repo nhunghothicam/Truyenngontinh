@@ -41,7 +41,6 @@ public class DbHelper extends SQLiteOpenHelper {
                 "tentheloai varchar\n" +
                 ");\n";
         db.execSQL(sql);
-
     }
 
     @Override

@@ -7,7 +7,7 @@ public class conf {
     public static final String MOTTRUYEN_IDTRUYEN = "idtruyen";
     public static final String MOTTRUYEN_TENTRUYEN = "tentruyen";
     public static final String MOTTRUYEN_TACGIA = "tacgia";
-    public static final String MOTRUYEN_HINHANH = "hinhanh";
+    public static final String MOTTRUYEN_HINHANH = "hinhanh";
     public static final String MOTTRUYEN_MOTA = "mota";
     public static final String MOTTRUYEN_SOCHUONG = "sochuong";
     public static final String MOTTRUYEN_TINHTRANG = "tinhtrang";
