@@ -4,19 +4,18 @@ import java.io.Serializable;
 
 public class MotTruyenEntity implements Serializable {
 
-    private String idtruyen, tentruyen, tacgia, hinhanh, mota, sochuong, theloai, tinhtrang;
+    private String idtruyen, tentruyen, tacgia, hinhanh, mota, sochuong, tinhtrang;
     private int yeuthich, off;
 
     public MotTruyenEntity(){}
 
-    public MotTruyenEntity(String idtruyen, String tentruyen, String tacgia, String hinhanh, String mota, String sochuong, String theloai, String tinhtrang, int yeuthich, int off){
+    public MotTruyenEntity(String idtruyen, String tentruyen, String tacgia, String hinhanh, String mota, String sochuong, String tinhtrang, int yeuthich, int off){
         this.idtruyen = idtruyen;
         this.tentruyen = tentruyen;
         this.tacgia = tacgia;
         this.hinhanh = hinhanh;
         this.mota = mota;
         this.sochuong = sochuong;
-        this.theloai = theloai;
         this.tinhtrang = tinhtrang;
         this.yeuthich = yeuthich;
         this.off = off;
@@ -68,14 +67,6 @@ public class MotTruyenEntity implements Serializable {
 
     public void setSochuong(String sochuong) {
         this.sochuong = sochuong;
-    }
-
-    public String getTheloai() {
-        return theloai;
-    }
-
-    public void setTheloai(String theloai) {
-        this.theloai = theloai;
     }
 
     public String getTinhtrang() {
