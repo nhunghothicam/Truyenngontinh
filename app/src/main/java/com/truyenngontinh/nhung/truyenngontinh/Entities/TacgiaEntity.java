@@ -4,26 +4,16 @@ import java.io.Serializable;
 
 public class TacgiaEntity implements Serializable {
 
-    private String idtruyen, idtacgia, tentacgia, hinhanh, motatacgia;
+    private String idtacgia, tentacgia, hinhanh, motatacgia;
 
     public TacgiaEntity(){}
 
-    public TacgiaEntity(String idtruyen, String idtacgia, String tentacgia, String hinhanh, String motatacgia){
-        this.idtruyen = idtruyen;
+    public TacgiaEntity(String idtacgia, String tentacgia, String hinhanh, String motatacgia){
         this.idtacgia = idtacgia;
         this.tentacgia = tentacgia;
         this.hinhanh = hinhanh;
         this.motatacgia = motatacgia;
     }
-
-    public String getIdtruyen() {
-        return idtruyen;
-    }
-
-    public void setIdtruyen(String idtruyen) {
-        this.idtruyen = idtruyen;
-    }
-
     public String getIdtacgia() {
         return idtacgia;
     }

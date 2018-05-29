@@ -4,15 +4,14 @@ import java.io.Serializable;
 
 public class TheloaiEntity implements Serializable {
 
-    private String idtruyen, idtheloai, tentheloai, motatheloai;
+    private String idtruyen, idtheloai, tentheloai;
 
     public TheloaiEntity(){}
 
-    public TheloaiEntity(String idtruyen, String idtheloai, String tentheloai, String motatheloai){
+    public TheloaiEntity(String idtruyen, String idtheloai, String tentheloai){
         this.idtruyen = idtruyen;
         this.idtheloai = idtheloai;
         this.tentheloai = tentheloai;
-        this.motatheloai = motatheloai;
     }
 
     public String getIdtruyen() {
@@ -37,13 +36,5 @@ public class TheloaiEntity implements Serializable {
 
     public void setTentheloai(String tentheloai) {
         this.tentheloai = tentheloai;
-    }
-
-    public String getMotatheloai() {
-        return motatheloai;
-    }
-
-    public void setMotatheloai(String motatheloai) {
-        this.motatheloai = motatheloai;
     }
 }
